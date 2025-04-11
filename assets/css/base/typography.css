@@ -1,0 +1,23 @@
+h1, .h1 {
+    @apply text-3xl font-bold text-pcb;
+}
+
+h2, .h2 {
+    @apply text-2xl font-semibold text-tech;
+}
+
+h3, .h3 {
+    @apply text-lg font-semibold text-iron;
+}
+
+p, .p {
+    @apply text-base text-iron;
+}
+
+blockquote {
+    @apply italic border-l-4 border-pcb pl-4 text-iron;
+}
+
+code {
+    @apply font-mono bg-neutral-800 px-1 py-0.5 rounded text-cyan;
+}

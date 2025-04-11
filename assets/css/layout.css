@@ -1,0 +1,19 @@
+html, body {
+    @apply font-mono text-iron bg-dark;
+}
+
+.layout-default {
+    @apply min-h-screen font-mono text-iron bg-dark;
+}
+
+.section-wrapper {
+    @apply p-8 space-y-10;
+}
+
+.section-title {
+    @apply text-2xl font-semibold text-tech;
+}
+
+.section-subtitle {
+    @apply text-lg font-semibold text-iron mt-6;
+}

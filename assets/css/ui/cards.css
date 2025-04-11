@@ -1,0 +1,7 @@
+.card-glass {
+    @apply relative rounded-xl border border-iron p-6 text-iron shadow-xl bg-iron/10 backdrop-blur-xl backdrop-saturate-150 transition-all;
+}
+
+.card-glass:hover {
+    @apply border-pcb/70;
+}
