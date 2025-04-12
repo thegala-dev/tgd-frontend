@@ -9,9 +9,9 @@ export default defineNuxtConfig({
     viewer: true,
     exposeConfig: false,
   },
-  //vite: {
-  //  server: {
-  //    allowedHosts: ['5514-93-71-128-188.ngrok-free.app'],
-  //  }
-  //}
+  vite: {
+    server: {
+      allowedHosts: ['5514-93-71-128-188.ngrok-free.app'],
+    }
+  }
 })

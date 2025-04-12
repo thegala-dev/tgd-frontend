@@ -1,13 +1,13 @@
 <template>
   <div class="relative" @mouseenter="open" @mouseleave="close">
-    <NuxtLink
-        :to="to"
+    <button
         class="nav-link flex items-center gap-1"
-        @click.prevent="toggle"
+        @mouseenter="isOpen = true"
+        @click="isOpen = !isOpen"
     >
       <slot name="button" />
       <Icon name="mdi:chevron-down" class="text-xs transition-transform duration-200" :class="{ 'rotate-180': isOpen }" />
-    </NuxtLink>
+    </button>
     <Transition name="fade-slide">
       <div
           v-if="isOpen"

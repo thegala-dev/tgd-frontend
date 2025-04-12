@@ -8,8 +8,8 @@
           <h3 class="text-lg font-semibold text-pcb mb-4">thegala.dev</h3>
           <UiFlex direction="col" :gap="8">
             <ul class="space-y-2">
-              <li><NuxtLink to="/privacy" class="nav-link">Privacy</NuxtLink></li>
-              <li><NuxtLink to="/cookies" class="nav-link">Cookie Policy</NuxtLink></li>
+              <li><NuxtLink to="/legal/privacy" class="nav-link">Privacy</NuxtLink></li>
+              <li><NuxtLink to="/legal/cookies" class="nav-link">Cookie Policy</NuxtLink></li>
             </ul>
             <ul class="space-y-2 mt-8">
               <li><NuxtLink to="/the-articles/perche-questo-blog" class="nav-link">Perché questo blog</NuxtLink></li>

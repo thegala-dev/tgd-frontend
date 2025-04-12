@@ -17,12 +17,14 @@
         <NuxtLink to="/" class="nav-link">Home</NuxtLink>
         <UiDropdown>
           <template #button>The Project</template>
+          <NuxtLink to="/the-project" class="block px-4 py-2 hover:text-pcb">thegala.dev</NuxtLink>
           <NuxtLink to="/the-project/the-gala" class="block px-4 py-2 hover:text-pcb">Chi sono</NuxtLink>
           <NuxtLink to="/the-project/github-repository" class="block px-4 py-2 hover:text-pcb">Repository</NuxtLink>
         </UiDropdown>
         <NuxtLink to="/the-articles" class="nav-link">Articles</NuxtLink>
         <NuxtLink to="/support" class="nav-link">Support</NuxtLink>
         <NuxtLink to="/contact" class="nav-link">Contact</NuxtLink>
+        <NuxtLink to="/design-system" class="nav-link">Design</NuxtLink>
       </nav>
 
       <!-- Hamburger mobile -->
@@ -45,6 +47,7 @@
         <NuxtLink to="/the-articles" class="block nav-link text-xl" @click="menuOpen = false">Articles</NuxtLink>
         <NuxtLink to="/support" class="block nav-link text-xl" @click="menuOpen = false">Support</NuxtLink>
         <NuxtLink to="/contact" class="block nav-link text-xl" @click="menuOpen = false">Contact</NuxtLink>
+        <NuxtLink to="/design-system" class="block nav-link text-xl" @click="menuOpen = false">Design</NuxtLink>
       </div>
     </Transition>
   </header>
