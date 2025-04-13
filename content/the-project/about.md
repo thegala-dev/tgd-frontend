@@ -18,6 +18,9 @@ Mi chiamo **Filippo Galante** e bazzico nel mondo Tech da quanto basta a capire 
 E poi... perché dovrei andarci? I contenuti di questo sito potrebbero scoprirsi attuali tra qualche anno, chissà!
 
 Non voglio elencare la mia formazione o la mia carriera: c'è sia [LinkedIn](https://www.linkedin.com/in/filippogalante/) — e anche la sua chat, se vuoi fare due parole — che [LinkTree](https://linktr.ee/ilgala).
+
+Oppure, se vuoi dare un’occhiata al codice, ecco dove si costruisce tutto:
+[`thegala-dev/tgd-frontend`](https://github.com/thegala-dev/tgd-frontend)
 ::
 ::
 

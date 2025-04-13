@@ -21,7 +21,7 @@ Da lì puoi esplorare codice, proporre modifiche, segnalare problemi e — se ti
 
 Ti ricordo che se vuoi dare un contributo extra all'implementazione di una nuova feature o a migliorare lo stile di questo AI base design system, trovi i dettagli nella pagina [support](/support).
 
-In generale **GRAZIE** per qualsiasi aiuto vorrai dare.
+In generale **GRAZIE** per qualsiasi aiuto vorrai dare.
 
 Le repository sono e saranno **sempre open**.  
 Questo non vuol dire anarchia totale: **pull request sì, deploy ad cazzum no**.
@@ -44,6 +44,8 @@ Abbiamo messo a punto una struttura chiara per mantenere ordine e coerenza:
 - `ISSUE_TEMPLATE` → bug report e feature request chiari e veloci
 - `PULL_REQUEST_TEMPLATE.md` → PR curate, contestualizzate, leggibili
 - `LICENSE` → sempre open (MIT), ma con testa
+
+Tutti i file sono disponibili in ogni repo, ma puoi partire da [`tgd-frontend`](https://github.com/thegala-dev/tgd-frontend) per farti un’idea.
 
 Il tutto pensato per rendere semplice aiutare, senza perdere tempo in cose inutili.
 ::

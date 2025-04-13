@@ -1,0 +1,25 @@
+name: Segnala un bug 🐞
+description: Aiutaci a migliorare segnalando un comportamento inaspettato.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: Cosa succede?
+      description: Descrivi il problema nel modo più chiaro possibile.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Come replicarlo?
+      description: Passaggi per riprodurre il problema.
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: Su quale branch?
+      placeholder: es. `main`, `dev`
+    validations:
+      required: false
