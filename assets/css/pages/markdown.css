@@ -1,0 +1,39 @@
+.markdown-content {
+    @apply space-y-6 leading-relaxed text-iron;
+}
+
+.markdown-content h1 {
+    @apply text-3xl font-bold text-pcb mt-8;
+}
+
+.markdown-content h2 {
+    @apply text-2xl font-semibold text-iron mt-6;
+}
+
+.markdown-content p {
+    @apply text-base text-iron;
+}
+
+.markdown-content blockquote {
+    @apply border-l-4 border-pcb pl-4 italic text-iron/80;
+}
+
+.markdown-content ul {
+    @apply list-disc pl-6 space-y-1;
+}
+
+.markdown-content a {
+    @apply text-cyan hover:underline;
+}
+
+.markdown-content hr {
+    @apply border-t border-iron/30 my-6;
+}
+
+.markdown-content img {
+    @apply rounded-xl shadow-md my-6;
+}
+
+.markdown-content pre {
+    @apply bg-iron/10 p-4 rounded overflow-x-auto text-sm;
+}

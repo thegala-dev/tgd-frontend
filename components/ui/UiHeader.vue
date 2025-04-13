@@ -18,8 +18,8 @@
         <UiDropdown>
           <template #button>The Project</template>
           <NuxtLink to="/the-project" class="block px-4 py-2 hover:text-pcb">thegala.dev</NuxtLink>
-          <NuxtLink to="/the-project/the-gala" class="block px-4 py-2 hover:text-pcb">Chi sono</NuxtLink>
-          <NuxtLink to="/the-project/github-repository" class="block px-4 py-2 hover:text-pcb">Repository</NuxtLink>
+          <NuxtLink to="/the-project/about" class="block px-4 py-2 hover:text-pcb">Chi sono</NuxtLink>
+          <NuxtLink to="/the-project/github" class="block px-4 py-2 hover:text-pcb">Github</NuxtLink>
         </UiDropdown>
         <NuxtLink to="/the-articles" class="nav-link">Articles</NuxtLink>
         <NuxtLink to="/support" class="nav-link">Support</NuxtLink>
@@ -40,8 +40,8 @@
         <UiDropdownMobile label="The Project" to="/the-project">
           <UiFlex direction="col" gap="4" class="ps-2 py-4">
             <NuxtLink to="/the-project" class="nav-link">thegala.dev</NuxtLink>
-            <NuxtLink to="/the-project/the-gala" class="nav-link">Chi sono</NuxtLink>
-            <NuxtLink to="/the-project/github-repository" class="nav-link">Repository</NuxtLink>
+            <NuxtLink to="/the-project/about" class="nav-link">Chi sono</NuxtLink>
+            <NuxtLink to="/the-project/github" class="nav-link">Github</NuxtLink>
           </UiFlex>
         </UiDropdownMobile>
         <NuxtLink to="/the-articles" class="block nav-link text-xl" @click="menuOpen = false">Articles</NuxtLink>

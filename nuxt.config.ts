@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxt/eslint', '@nuxt/icon', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxt/eslint', '@nuxt/icon', '@nuxtjs/tailwindcss', '@nuxt/content'],
   tailwindcss: {
     cssPath: ['~/assets/css/tailwind.css', { injectPosition: "first" }],
     viewer: true,
