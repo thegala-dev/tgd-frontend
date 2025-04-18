@@ -7,6 +7,10 @@
     <template #default>
       <Content collection="pages" :path="path" />
     </template>
+
+    <template #sidebar>
+      <Drawer open />
+    </template>
   </PageLayout>
 </template>
 
@@ -14,6 +18,7 @@
 import PageLayout from '@/layouts/pages/PageLayout.vue'
 import Hero from '@/components/pages/Hero.vue'
 import Content from "~/components/pages/Content.vue";
+import Drawer from "~/components/pages/Drawer.vue";
 
 const route = useRoute()
 const path = computed(() => {

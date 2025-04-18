@@ -39,9 +39,9 @@
         <NuxtLink to="/" class="block nav-link text-xl" @click="menuOpen = false">Home</NuxtLink>
         <UiDropdownMobile label="The Project" to="/the-project">
           <UiFlex direction="col" gap="4" class="ps-2 py-4">
-            <NuxtLink to="/the-project" class="nav-link">thegala.dev</NuxtLink>
-            <NuxtLink to="/the-project/about" class="nav-link">Chi sono</NuxtLink>
-            <NuxtLink to="/the-project/github" class="nav-link">Github</NuxtLink>
+            <NuxtLink to="/the-project" class="nav-link" @click="menuOpen = false">thegala.dev</NuxtLink>
+            <NuxtLink to="/the-project/about" class="nav-link" @click="menuOpen = false">Chi sono</NuxtLink>
+            <NuxtLink to="/the-project/github" class="nav-link" @click="menuOpen = false">Github</NuxtLink>
           </UiFlex>
         </UiDropdownMobile>
         <NuxtLink to="/the-articles" class="block nav-link text-xl" @click="menuOpen = false">Articles</NuxtLink>
